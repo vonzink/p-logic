@@ -1,0 +1,14 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands: []
+  artifacts:
+    baseDirectory: website
+    files:
+      - index.html
+      - favicon.svg
+      - robots.txt
+      - sitemap.xml
+  cache:
+    paths: []
