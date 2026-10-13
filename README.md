@@ -31,6 +31,6 @@ To redeploy, zip the four files inside `website/` at the archive root: `index.ht
 
 ## Domain setup
 
-The Amplify domain associations have been created. Porkbun must contain the certificate verification CNAME and website routing records supplied by Amplify before custom-domain HTTPS can work. Use an ALIAS for each root domain and CNAME for each `www` name. Preserve all email records. Check Amplify domain status and public HTTPS responses after changing DNS.
+Both domains are connected and were publicly verified on October 13, 2026: `https://prosperouslogic.us/` returns HTTP 200, and all three aliases return HTTP 301 to it. Each domain has its own AWS certificate verification CNAME, a root ALIAS, and a `www` CNAME. Keep the certificate records for renewal. Existing email records and wildcard records were preserved.
 
 References: [Amplify domain redirects](https://docs.aws.amazon.com/amplify/latest/userguide/redirect-rewrite-examples.html) and [Porkbun root-domain ALIAS records](https://kb.porkbun.com/article/85-how-to-connect-your-root-domain-when-your-web-host-wont-provide-an-ip-address).
