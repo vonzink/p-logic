@@ -79,17 +79,9 @@ h2{font-size:clamp(34px,4.5vw,52px);font-weight:700;letter-spacing:-.03em;line-h
 .steps .n{font:13px var(--mono);color:var(--teal-lt)}
 .steps h3{font-size:22px;font-weight:700;letter-spacing:-.02em}
 .steps p{font-size:16px;line-height:1.55;color:#C9C6BE;text-wrap:pretty}
-.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:48px;margin-top:40px}
+.company-intro{margin-top:40px;max-width:78ch}
 .stack{display:flex;flex-direction:column;gap:20px}
 .body-lg{font-size:18px;line-height:1.6;color:var(--body);text-wrap:pretty}
-.firms{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
-.firm{padding:28px;display:flex;flex-direction:column;gap:14px}
-.firm h3{font-size:22px;font-weight:700}
-.firm p{font-size:15px;line-height:1.55}
-.firm .k{font:12px var(--mono);letter-spacing:.1em}
-.firm .d{font:13px var(--mono);margin-top:auto}
-.firm-a{background:var(--ink);color:#fff}.firm-a .k{color:var(--teal-lt)}.firm-a p{color:#C9C6BE}
-.firm-b{background:#fff;border:1px solid var(--line);color:var(--ink)}.firm-b:hover{border-color:var(--ink);color:var(--ink)}.firm-b .k{color:var(--muted)}.firm-b p{color:var(--body)}.firm-b .d{color:var(--teal)}
 .leadership{margin-top:48px;border-top:1px solid var(--ink);padding-top:32px}
 .leadership h3{font-size:28px;letter-spacing:-.02em}
 .owners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;margin-top:24px}
@@ -161,7 +153,6 @@ footer a{color:var(--teal-lt)}
         <div><dt>Registration</dt><dd>SAM.gov · Active</dd></div>
         <div><dt>Ownership</dt><dd>Veteran-owned</dd></div>
         <div><dt>NAICS areas</dt><dd class="mono">236220 · 541211 · 541611 · 541512 · 541511</dd></div>
-        <div><dt>Sister firm</dt><dd><a class="u" href="https://pragmaticds.com/">Pragmatic Defense Solutions</a></dd></div>
       </dl>
     </aside>
   </section>
@@ -192,16 +183,10 @@ footer a{color:var(--teal-lt)}
   </section>
 
   <section id="company" class="wrap sec" style="padding-top:88px;padding-bottom:88px">
-    <div class="sec-head"><span>03 — Company</span><span>performer + advisor</span></div>
-    <div class="split">
-      <div class="stack">
-        <h2>Two firms. Clear lanes.</h2>
-        <p class="body-lg">Prosperous Logic is the performing contractor — we bid, win, and deliver the work. Our sister company, Pragmatic Defense Solutions, consults other firms on winning and managing government contracts. Separate entities, shared discipline.</p>
-      </div>
-      <div class="firms">
-        <div class="firm firm-a"><span class="k">PERFORMS</span><h3>Prosperous Logic</h3><p>Construction, accounting, finance, network, and software contracts.</p><span class="d">prosperouslogic.us</span></div>
-        <a class="firm firm-b" href="https://pragmaticds.com/"><span class="k">ADVISES</span><h3>Pragmatic Defense Solutions</h3><p>Government contract consulting — capture, proposals, and compliance.</p><span class="d">pragmaticds.com →</span></a>
-      </div>
+    <div class="sec-head"><span>03 — Company</span><span>Prosperous Logic, LLC</span></div>
+    <div class="company-intro stack">
+      <h2>Experience behind the work.</h2>
+      <p class="body-lg">Led by William Austin and Brook Zink, Prosperous Logic brings federal contract audit experience together with finance, people, and operations leadership. We apply that experience to construction, accounting, finance, network systems, and software contracts.</p>
     </div>
     <div class="leadership" aria-labelledby="leadership-title">
       <h3 id="leadership-title">Meet the owners.</h3>
@@ -254,7 +239,7 @@ footer a{color:var(--teal-lt)}
     <svg width="32" height="35" viewBox="0 0 48 52" aria-hidden="true"><polygon points="24,3 44,14.5 44,37.5 24,49 4,37.5 4,14.5" fill="none" stroke="#F2F0EB" stroke-width="3.5"/><polygon points="24,1 46,13.6 46,21 24,8.4" fill="#12857F"/><text x="24" y="32" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="15" fill="#F2F0EB">PL</text></svg>
     <span>© <span id="yr">2026</span> Prosperous Logic, LLC</span>
   </div>
-  <div class="links"><span>prosperouslogic.us</span><span>plogic.us</span><a href="https://pragmaticds.com/">Sister firm: pragmaticds.com</a></div>
+  <div class="links"><span>prosperouslogic.us</span><span>plogic.us</span></div>
 </div></footer>
 
 <script>

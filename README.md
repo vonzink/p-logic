@@ -23,6 +23,7 @@ To redeploy, zip the four files inside `website/` at the archive root: `index.ht
 
 ## Content and contact
 
+- This is a standalone Prosperous Logic website. Company information, navigation, and footer references stay focused on Prosperous Logic.
 - William Austin is the primary owner; Brook Zink is co-owner, as directed by the owner.
 - The supplied biographies support the short leadership summaries.
 - Legal name, UEI `Q8B1KBJ3QNZ3`, CAGE `25XC9`, and active SAM registration come from the user's October 13, 2026 registration screenshots. These were not independently reverified against SAM.
